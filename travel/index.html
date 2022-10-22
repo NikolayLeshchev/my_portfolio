@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="zxx">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Aleo:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Red+Hat+Text:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="shortcut icon" href="./img/fav.ico" type="image/x-icon">
+  <link rel="stylesheet" href="./style.css">
+  <link rel="stylesheet" href="./adaptive.css">
+  <link rel="stylesheet" href="./swiper-bundle.min.css"/>
+  <title>Travel</title>
+</head>
+<body>
+<div class="first_bg">
+
+<header >
+  
+  <img class="mobile_logo" src="./img/mobile_logo.svg" alt="logo"><a href="https://rolling-scopes-school.github.io/nikolayleshchev-JSFEPRESCHOOL2022Q2/travel/"></a></img>
+  
+  
+  <div  class="hamburger-menu">
+    <input id="menu__toggle" type="checkbox" />
+    <label class="menu__btn" for="menu__toggle">
+      <span></span>
+    </label>
+    
+    <ul  class="menu__box">
+      <div id ="hamburger-menu" class="hm"><li><a class="menu__item" href="#preview">How It Works</a></li>
+      <li><a class="menu__item" href="#steps">Plan Your Trip</a></li>
+      <li><a class="menu__item" href="#destinations">Destinations</a></li>
+      
+      <li><a class="menu__item" href="#stories">Travel Stories</a></li>
+      <li><a  id ="account" class="menu__item" href="#">Account</a></li>
+      <li><a class="menu__item" href="#social">Social Media</a></li>
+    </div></ul>
+    
+  </div>
+
+
+  <div class="header">
+    <a href="https://rolling-scopes-school.github.io/nikolayleshchev-JSFEPRESCHOOL2022Q2/travel/"><img class="logo" src="./img/logo.svg" alt="logo"></a> 
+    <nav class="nav">
+      <ul class="nav-list">
+        <li><a class="nav-links" href="#preview">How It Works</a></li>
+        <li><a class="nav-links" href="#steps">Plan Your Trip</a></li>
+        <li><a class="nav-links" href="#destinations">Destinations</a></li>
+        <li><a class="nav-links" href="#stories">Travel Stories</a></li>
+      </ul>
+    </nav>
+    <button id="login_btn" class="login">Login</button>
+  </div>
+</header>
+
+<main>
+  <section id="preview" class="first-screen">
+       <h1 class="main_h1">Explore the beauty of <br> the World</h1>
+      <p class="main_p"><i>Recieve personalized recommendations for countries, hotels, activities and more</i></p>
+      
+      <form class="form">
+        <input class="search" type="text" placeholder="What would you like to do?">
+        <button class="search_button">Start&nbsp;Planning</button>
+      </form>
+
+  </section>
+
+
+  <section id="steps" >
+    <h2 class="main_h2">3 STEPS TO THE PERFECT TRIP</h2>
+
+<div class="textcols">
+  <div class="textcols-item">
+    <img class="step_img" 
+     src="./img/1step.svg" alt="icon1">
+    <p class="step_p">Tell us what you want to do</p>
+  </div>
+  <div class="textcols-item">
+  <img  class="step_img" src="./img/2step.svg" alt="icon2">
+  <p class="step_p">Share us preferable dates</p>
+  </div>
+  <div class="textcols-item">
+    <img class="step_img" src="./img/3step.svg" alt="icon3">
+    <p class="step_p">We will give you recommendations</p>
+  </div>
+</div>
+
+<div class="textcols_mobile">
+  <div class="textcols-item_mobile">
+    <img class="step_img" 
+     src="./img/1step.svg" alt="icon1">
+    <p class="step_p left-step">Tell&nbsp;us what you<br> want to do</p>
+  </div>
+  <div class="textcols-item_mobile">
+  <img  class="step_img" src="./img/2step.svg" alt="icon2">
+  <p class="step_p">Share&nbsp;us&nbsp;preferable&nbsp;dates</p>
+  </div>
+  <div class="textcols-item_mobile">
+    <img class="step_img" src="./img/3step.svg" alt="icon3">
+    <p class="step_p right-step">We will give you recommendations</p>
+  </div>
+</div>
+
+  </section>
+
+  <section id="destinations">
+      <h2 class="main3_h2">POPULAR DESTINATIONS</h2>
+
+
+
+    <!-- Swiper Desktop-->
+    <div class="swiper mySwiper">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide ">
+          <div class="slide-content">
+          <img class="carousel_photo" src="./img/Destination1.jpg"> 
+          <h4 class="destination_name_desk">SPAIN</h4>
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <div class="slide-content">
+          <img class="carousel_photo" src="./img/Destination2.jpg"> 
+          <h4 class="destination_name_desk">JAPAN</h4> 
+        </div>
+        </div>
+        <div class="swiper-slide">
+          <div class="slide-content">
+          <img class="carousel_photo" src="./img/Destination3.jpg">
+           <h4 class="destination_name_desk">USA</h4> 
+          </div>
+        </div>
+      </div>
+      <div class="swiper-pagination"></div>
+    </div>
+
+
+
+
+        <!--  Swiper Mobile -->
+    <div class="swiper swiper-container ">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide">
+          <img class="carousel_photo" src="./img/Destination1_mob.jpg"> 
+          <h3 class="destination_name_mob">SPAIN</h3>
+        </div>
+        <div class="swiper-slide">
+          <img class="carousel_photo" src="./img/Destination2_mob.jpg"> 
+          <h3 class="destination_name_mob">JAPAN</h3>
+        </div>
+        <div class="swiper-slide">
+          <img class="carousel_photo " src="./img/Destination3_mob.jpg">
+          <h3 class="destination_name_mob">USA</h3>
+        </div>
+        
+      </div>
+      <div class="swiper-button-next"></div>
+      <div class="swiper-button-prev"></div>
+      <div class="swiper-pagination"></div>
+    </div> 
+
+
+  <button class="but3 e"><img class="arrow" src="./img/bi_arrow-right.svg" alt="arrow"> Find&nbsp;More</button>
+
+  </section>
+ 
+  <section id="stories">
+    
+    <h2 class="main4_h2">TRAVEL STORIES</h2>
+    <img class="bg2" src="./img/bg2.jpg" alt="river">
+
+    <div class="stories">
+
+      <div class="articles" style="background-color: url('./img/bg2.jpg');">
+
+        <div class="first"><article class="story_article">
+          <img class="photo_article" src="./img/s1.jpg" alt="river">
+          <div class="text_article"><h3 class="h3_article">10 Photos of Attractive Thailand</h3>
+          <p class="p_article">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magnaaliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sitamet, consectetur adipiscing elit... <a class="read-more" href="#"><br><b>Read More</b></a> </p>
+        <p class=" mobile">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
+        aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis
+        aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla.Lorem ipsum dolor sit a... <a class="read-more" href="#"><br><b>Read More</b></a></p>
+        </div></article></div>
+          <article class="story_article">
+              <img class="photo_article" src="./img/s2.jpg" alt="river">
+              <div class="text_article">
+                <h3 class="h3_article">Canyonlands National Park, Utah</h3>
+                <p class="p_article">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magnaaliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sitamet, consectetur adipiscing elit... <a class="read-more" href="#"><br><b>Read More</b></a> </p>
+                <p class=" mobile">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla.Lorem ipsum dolor sit a... <a
+                                class="read-more" href="#"><br><b>Read More</b></a></p>
+                </div>
+              </article>
+              <article class="story_article">
+                  <img class="photo_article" src="./img/s3.jpg" alt="river">
+                  <div class="text_article">
+                    <h3 class="h3_article">I left my heart in the Mountains!</h3>
+                    <p class="p_article">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magnaaliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sitamet, consectetur adipiscing elit... <a class="read-more" href="#"><br><b>Read More</b></a> </p>
+                    <p class=" mobile">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla.Lorem ipsum dolor sit a... <a class="read-more" href="#"><br><b>Read More</b></a></p>
+                      </div>
+              </article>
+              <article class="story_article">
+                    <img class="photo_article" src="./img/s4.jpg" alt="river">
+                    <div class="text_article">
+                      <h3 class="h3_article">The Longest journey in my life!</h3>
+                        <p class="p_article">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magnaaliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim idest laborum.Lorem ipsum dolor sitamet, consectetur adipiscing elit... <a class="read-more" href="#"><br><b> Read More</b></a> </p>
+                        <p class=" mobile">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla.Lorem ipsum dolor sit a... <a class="read-more" href="#"><br><b>Read More</b></a></p>
+                            </div>
+              </article>
+
+       </div>
+
+
+        <div class="final-button">
+        <button class="but4 e"><img class="arrow" src="./img/arrow.svg" alt="arrow">See&nbsp;More</button>
+        </div>
+
+    </div>
+  </section>
+
+</main>
+
+
+
+<footer class="footer">
+  <div id="social" class="links">
+      <div class="left">
+        <a href="https://rs.school/js/"><img class="rs" src="./img/rsscool.svg" alt="rs"></a>
+        <a href="https://github.com/NikolayLeshchev"><img class="git" src="./img/github.svg" alt="github"></a>
+      </div>
+    <p class="all-rights">All Rights Reserved © Travel Portal</p>
+    <div class="social_list">
+      <ul class="social-links">
+      <li><a href="https://rs.school/js/"><img class="social" src="./img/instagram.svg" alt="instagram"></a></li>
+      <li><a href="https://github.com/NikolayLeshchev"><img class="social" src="./img/video.svg" alt="viseo"></a></li>
+      <li><a href="https://rs.school/js/"><img class="social" src="./img/twitter.svg" alt="twitter"></a></li>
+      </ul>
+    </div>
+  </div>  
+</footer>
+
+
+
+<div id="popup_login" class="popup_1">
+  <div  class="popup_login">
+      <div class="popup_login__content">
+        <div class="popup_login__body">
+            <h3 class="h3_popup">Log in to your account</h3>
+            <a class="facebook_btn popup_btn" href="https://www.facebook.com/"><img class="popup_social_logo" src="./img/facebook_logo_popup.svg" alt="facebook_logo"> Sign In with Facebook</a>
+            <a href="https://www.google.com/" class="google_btn popup_btn"><img class="popup_social_logo" src="./img/google_logo_popup.svg" alt="google_logo"> Sign In with Google</a>
+            <p class="p_or"><span class="span_or">or</span></p>
+            
+            <form action="/" method="post" id="form">
+              <p class= "input_data_label">E-mail</p>
+              <input class="popup_imput" type="email" name="email">
+              <p class="input_data_label">Password</p>
+              <input class="popup_imput" type="text" name="password">
+            
+               <button type="submit" class="sign_in_btn popup_btn">Sign In</button>
+            </form>
+            <div class="forgot-password"><a href="#">Forgot Your Password?</a></div> 
+            <hr class="line"></hr>
+        </div>
+        <div class="popup_footer">
+          <p class="footer_popup_p">Don’t have an account? <a id= "register" class="register" href="#">Register</a></p>
+        </div>
+      </div>
+    
+  </div>
+</div>
+
+
+<div id="popup_singUp" class="popup_2">
+  <div  class="popup_singUp">
+      <div class="popup_singUp__content">
+        <div class="popup_singUp__body">
+            <h3 class="h3_popup">Create account</h3>
+            
+            <form action="/" method="post" id="form_2">
+              <p class= "input_data_label">E-mail</p>
+              <input class="popup_imput" type="email" name="email">
+              <p class="input_data_label">Password</p>
+              <input class="popup_imput" type="text" name="password">
+            
+               <button type="submit" class="sign_in_btn popup_btn">Sign Up </button>
+            </form>
+             
+            <hr class="line"></hr>
+        </div>
+        <div class="popup_footer">
+          <p class="footer_popup_p">Already have an account? <a id="login_btn1" class="register" href="#">Log in</a></p>
+        </div>
+      </div>
+    
+  </div>
+</div>
+  
+       
+    
+</div>
+
+
+
+
+
+<!-- Swiper JS -->
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+<script src="./index.js"></script>
+
+</body>
+</html>
