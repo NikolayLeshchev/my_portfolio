@@ -1,0 +1,87 @@
+[
+  {
+    "text": "Don't worry if something doesn't work. If everything worked, you would be fired.",
+    "author": "Mosher’s Law of Software Engineering"
+  },
+
+  {
+    "text": "In good design, adding something costs less than the thing itself.",
+    "author": "Thomas C. Gale"
+  },
+
+  {
+    "text": "In theory, theory and practice are inseparable. In practice, this is not the case.",
+    "author": "Yoggi Berra"
+  },
+
+  {
+    "text": "Measuring a programmer's productivity by counting lines of code is like judging an airplane's build by its weight.",
+    "author": "Bill Gates"
+  },
+
+  {
+    "text": "Debugging code is twice as hard as writing it. So if you write code as smart as you can, then by definition you are not smart enough to debug it.",
+    "author": "Brian W Kernighan"
+  },
+
+  {
+    "text": "Many of you are familiar with the virtues of being a programmer. There are only three of them, and of course this is: laziness, impatience and pride.",
+    "author": "Larry Wall"
+  },
+
+  {
+    "text": "Always write code as if it would be accompanied by a violent psychopath who knows where you live.",
+    "author": "Martin Golding"
+  },
+
+  {
+    "text": "If you give a person a program, you will keep him busy for one day. If you teach a person to program, you will keep him busy for life.",
+    "author": "Waseem Latif"
+  },
+  {
+    "text": "Debugging code is like hunting. Hunting for bugs.",
+    "author": "Amit Kalantri"
+  },
+  {
+    "text": "Programming is about breaking something big and impossible into something small and quite real.",
+    "author": "Jazzwant"
+  },
+  {
+    "text": "Simplicity is the key to reliability.",
+    "author": "Edsger W. Dijkstra"
+  },
+  {
+    "text": "Does it work? Do not touch.",
+    "author": "Any programmer"
+  },
+
+  {
+    "text": "The difficulty of working with a programmer is that you cannot understand what he is doing until it is too late.",
+    "author": "Seymour Cray"
+  },
+
+  {
+    "text": "I think this will be a new feature. Just don't tell anyone that it happened by accident.",
+    "author": "Larry Wall"
+  },
+
+  {
+    "text": "Magic ceases to exist after you understand how it works.",
+    "author": "Tim Berners-Lee"
+  },
+  
+  {
+    "text": "Laziness is the natural state of a programmer, after which he gives birth to a good algorithm.",
+    "author": "Folk art"
+  },
+  
+  {
+    "text": "Some problems are better not solved, but avoided.",
+    "author": "Tony Hoare"
+  },
+  
+  {
+    "text": "You can't trust code that you haven't written completely yourself.",
+    "author": "Ken Thompson"
+  }
+]
