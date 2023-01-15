@@ -13,4 +13,6 @@ Here I used HTML, CSS, JS.
 ### [Forest Travel](https://nikolayleshchev.github.io/Forest-Travel/) is one more project, which I made myself. 
 Here I also used HTML, CSS, JS.
 
-### [React Social Networking web-app](https://github.com/NikolayLeshchev/react-social-networking-app). In this repository you can see code of my first React app. This project in developement now. 
+### [React Social Networking web-app](https://github.com/NikolayLeshchev/react-social-networking-app). In this repository you can see code of my first React app. This project is in developement now. 
+
+### [Plants Project](https://rolling-scopes-school.github.io/nikolayleshchev-JSFEPRESCHOOL2022Q4/plants/) is in developement now. This project is my training project in The Rolling Scopes School.
