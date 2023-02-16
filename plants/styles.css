@@ -36,6 +36,7 @@ p {
 }
 
 .container {
+  padding: 0 10px;
   max-width: 1220px;
   margin: 0 auto;
 }
@@ -412,6 +413,7 @@ p {
   transition: 0.3s;
   transform: scale(1.05);
 }
+
 .accordion-content {
   display: none;
   width: calc(100% + 2px);
@@ -575,17 +577,19 @@ p {
 .city-results-line {
   display: flex;
 }
-.res-button-call:hover{
+
+.res-button-call:hover {
   background: #E06733;
   color: #ffffff;
 }
+
 @media(max-width:768px) {
   .container {
     max-width: 668px;
   }
 
   #header .container {
-    padding: 47px 0px;
+    padding: 47px 10px;
   }
 
   .leaves {
@@ -741,12 +745,12 @@ p {
   .contact_woman {
     display: block;
     margin: 0 auto;
-    width: 200px;
-    height: 250px;
+    width: 300px;
+    height: auto;
   }
 
   .contact_woman {
-    margin: 250px auto 0;
+    margin: 50px auto 0;
   }
 
   #footer .container {
@@ -769,7 +773,7 @@ p {
   }
 
   #header .container {
-    padding: 36px 0px;
+    padding: 36px 10px;
   }
 
   #header {
@@ -1086,10 +1090,381 @@ p {
   .city-results {
     width: 282px;
   }
-  .city-result-title{
+
+  .city-result-title {
     min-width: 65px;
     max-width: 66px;
     line-height: 200%;
   }
-  .city-res{line-height: 200%;}
+
+  .city-res {
+    line-height: 200%;
+  }
+}
+
+
+@media(min-width:769px) and (max-width:970px) {
+  .welcome-text {
+    padding-top: 0;
+  }
+
+  .welcome-text h1 {
+    font-size: 35px;
+    margin-bottom: 15px;
+  }
+
+  .about-text {
+    margin: 100px 50px 155px 0;
+  }
+
+  .buttons {
+    margin-left: 10px;
+  }
+
+  #city {
+    width: 340px;
+  }
+
+  .city-results {
+    width: 340px;
+  }
+
+  .city-results-info {
+    padding: 10px;
+  }
+}
+
+
+@media(min-width:381px) and (max-width:700px) {
+  #header .container {
+    padding: 20px 10px;
+  }
+
+  #header {
+    height: 100%;
+  }
+
+  h1 {
+    font-size: 25px;
+    line-height: 35px;
+    margin-bottom: 20px;
+  }
+
+  .logo {
+    height: 21px;
+  }
+
+  .main-button {
+    margin-top: 20px;
+    width: 100px;
+    line-height: 20px;
+    height: 35px;
+  }
+
+  .welcome-content {
+    padding-bottom: 25px;
+  }
+
+  .about-title {
+    font-size: 25px;
+    line-height: 33px;
+    padding-top: 30px;
+  }
+
+  .about-desctiption {
+    font-size: 15px;
+    margin-top: 15px;
+    line-height: 25px;
+  }
+
+  .leaves {
+    max-width: 180px;
+  }
+
+  #nav {
+    display: none;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0px;
+
+  }
+
+  #nav._active {
+    display: block;
+    background-color: rgba(0, 0, 0, 0.6);
+
+  }
+
+  .nav-item+.nav-item {
+    margin-left: 0;
+  }
+
+  .nav-item {
+    margin-bottom: 15px;
+    font-size: 24px;
+
+  }
+
+  .nav-item-link .orange-span {
+    color: #010201;
+  }
+
+  .nav-list {
+    transition: all 2s ease 0s;
+  }
+
+  .nav-list {
+    position: absolute;
+    top: 0;
+    right: -100%;
+    display: block;
+    padding: 80px 100px 20px 30px;
+    background: #EDF2EC;
+    border-radius: 10px 0 0 10px;
+  }
+
+  .nav-list._active {
+    right: 0px;
+  }
+
+  .about-img {
+    margin: 0 auto 30px;
+
+  }
+
+  .about-img img {
+    max-width: 150px;
+  }
+
+  .service-head {
+    padding: 25px 0 0;
+  }
+
+  .service-title {
+    font-size: 25px;
+    line-height: 33px;
+    max-width: 187px;
+  }
+
+  .buttons {
+    flex-wrap: wrap;
+    margin-top: 30px;
+  }
+
+  .button {
+    margin: 10px 10px 0 0;
+
+    width: 121px;
+    height: 35px;
+    line-height: 20px;
+    font-size: 15px;
+  }
+
+  .button+.button {
+    margin-left: 0;
+  }
+
+  .service-card {
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 30px;
+  }
+
+  .service-cards {
+    padding-bottom: 0;
+  }
+
+  .prices-title {
+    padding: 0;
+    text-align: center;
+    margin-bottom: 0;
+    font-size: 25px;
+  }
+
+  .prices-item+.prices-item {
+    margin-top: 14px;
+  }
+
+  .prices-head {
+    padding-top: 20px;
+  }
+
+  .prices-wrap {
+    display: block;
+  }
+
+  .prices-left {
+    display: block;
+    margin: 0 auto;
+  }
+
+  .prices-items {
+    padding: 29px 22px;
+    max-width: 224px;
+    margin: 0 auto;
+  }
+
+  .prices-item {
+    margin: 0 auto 0;
+    padding: 0 10px 0 10px;
+    max-width: 180px;
+    height: 40px;
+    margin-top: 5px;
+  }
+
+  .prices-item-name {
+    font-size: 15px;
+  }
+
+  .prices-description {
+
+    text-align: center;
+    margin-bottom: 0;
+    margin: 0 auto 10px;
+
+  }
+
+  .prices-right img {
+    display: none;
+  }
+
+  .prices-item-name+img {
+    margin-left: 5px;
+  }
+
+  .contact-but {
+    display: block;
+    margin: 0 auto;
+    font-weight: 700;
+    font-size: 15px;
+
+    width: 121px;
+    height: 35px;
+    margin-top: 30px;
+  }
+
+  .button-link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  #prices .container {
+    padding-bottom: 40px;
+  }
+
+  .contacts-title {
+    padding-top: 17px;
+    margin-bottom: 70px;
+    font-size: 25px;
+  }
+
+  .contact_woman {
+    width: 200px;
+    height: auto;
+  }
+
+  #city {
+    width: 300px;
+    margin: 0 auto;
+
+  }
+
+  #footer .container {
+    padding: 22px 0;
+  }
+
+  .copywrite {
+    margin-bottom: 15px;
+  }
+
+
+  .burger-menu {
+    display: block;
+    width: 40px;
+    height: 26px;
+    cursor: pointer;
+    z-index: 5;
+    position: relative;
+    margin-left: auto;
+  }
+
+
+  .burger-menu span:first-child {
+    position: absolute;
+    top: 32.5%;
+    height: 2px;
+    width: 100%;
+    background-color: #717171;
+  }
+
+  .burger-menu span:last-child,
+  .burger-menu span::before,
+  .burger-menu span::after {
+    position: absolute;
+    bottom: 32.5%;
+    height: 2px;
+    width: 100%;
+    background-color: #717171;
+
+  }
+
+  .burger-menu span:first-child::after,
+  .burger-menu span:first-child::before {
+    content: "";
+  }
+
+  .burger-menu span::before {
+    transform: translateY(-8px);
+  }
+
+  .burger-menu span::after {
+    transform: translateY(16px);
+  }
+
+  .burger-menu._active span::before,
+  .burger-menu._active span::after {
+    opacity: 0;
+  }
+
+  .burger-menu span:first-child,
+  .burger-menu span:last-child {
+    transition: all 1s;
+  }
+
+  .burger-menu._active span:first-child {
+    transform: rotate(45deg);
+    top: 48%;
+  }
+
+  .burger-menu._active span:last-child {
+    transform: rotate(-45deg);
+    bottom: 45%;
+  }
+
+  .city-results-info {
+    padding: 23px 36px 17px 36px;
+  }
+
+  .city-results {
+    width: 282px;
+  }
+
+  .city-result-title {
+    min-width: 65px;
+    max-width: 66px;
+    line-height: 200%;
+  }
+
+  .city-res {
+    line-height: 200%;
+  }
+}
+
+@media(min-width:381px) and (max-width:500px) {
+  .leaves {
+    display: none;
+  }
 }
